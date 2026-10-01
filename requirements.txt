@@ -1,0 +1,5 @@
+# mediapipe depends on opencv-contrib-python; installing opencv-python too
+# puts two builds in the same cv2/ folder, so use contrib only.
+opencv-contrib-python>=4.8,<5
+mediapipe==0.10.9
+selenium>=4.6

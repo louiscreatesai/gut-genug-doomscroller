@@ -1,0 +1,34 @@
+# Virtual environment — recreated locally from requirements.txt
+# (.venv may be a symlink to .venv.nosync, which keeps it out of iCloud Drive)
+.venv
+.venv/
+.venv.nosync/
+venv/
+
+# Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+
+# macOS junk
+.DS_Store
+
+# Editor / tool config
+.vscode/
+.idea/
+.claude/
+.cursor/
+
+# Auto-downloaded chromedriver (platform-specific, fetched on first run)
+.driver/
+
+# The clip is downloaded on first run — it's KITSCHKRIEG's, not ours to redistribute
+assets/*.mp4
+assets/*.mov
+assets/*.webm
+
+# Local runtime state
+calibration.json
+run.log
+.pytest_cache/
+.coverage
